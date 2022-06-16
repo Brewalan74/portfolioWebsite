@@ -212,6 +212,11 @@ button:hover {
     padding-bottom: 1px;
 }
 
+.intersection {
+    height: 1rem;
+    background-color: #353b48;
+}
+
 /* Contact page */
 /* ############ */
 .mainContact h2 {
@@ -234,5 +239,4 @@ footer {
     text-align: center;
     height: 10rem;
     padding-top: 3rem;
-    border: 1px solid black;
 }
