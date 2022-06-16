@@ -14,14 +14,16 @@
   </head>
   <body>
     <header>
-      <nav>
+      <div class="headerNavbar">
         <a href="./index.html">SBPK</a>
-        <ul class="headerUl">
-          <li><a href="#aboutMe">About me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="./contact.html" target="_blank">Contact</a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul class="headerUl">
+            <li><a href="#aboutMe">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="./contact.html" target="_blank">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
 
       <h1>Web Developer</h1>
       <h2>Brewalan</h2>
@@ -30,9 +32,9 @@
     <main>
       <h2>About me</h2>
       <section id="aboutMe" class="mainAbout">
-        <div>
+        <div class="mainAboutText">
           <p>
-            I used to work as a Travel Advisor, specialist of Northeast of China. However, in December 2020, I lost my
+            I used to work as a Travel Advisor, specialist of Northeast of China from 2017 to 2020. However, in December 2020, I lost my
             job because of Covid. Rather than wait for the tourism to get back to normal, I decided to change career.
           </p>
           <p>
@@ -46,13 +48,14 @@
             part of of the projects codecademy make me to do. Next below some projects I did since February 2020.
           </p>
           <p>
-            I enrolled the Full-Stack Engineer path because I want to be able to review what I learn in code school at my paces, but
-            since I started to learn to code, I can see my preference is Front-end. I love to work with WordPress and
-            PHP, but I really enjoy to play with CSS. And even if I have some difficulties, it is a great pleasure to
-            work with JavaScript. So I might decide to enroll the Frontend path if I have enough with the back when I will be there.
+            I enrolled the Full-Stack Engineer path because I want to be able to review what I learn in code school at
+            my paces, but since I started to learn to code, I can see my preference is Front-end. I love to work with
+            WordPress and PHP, but I really enjoy to play with CSS. And even if I have some difficulties, it is a great
+            pleasure to work with JavaScript. So I might decide to enroll the Frontend path if I have enough with the
+            back when I will be there.
           </p>
         </div>
-        <img src="./assets/img/Wonderland.jpg" alt="my avatar" />
+        <img class="mainAboutImg" src="./assets/img/Wonderland.jpg" alt="my avatar" />
       </section>
 
       <div id="projects">
@@ -125,11 +128,11 @@
           <h4>Website Project System</h4>
           <img src="./assets/img/WebsiteDesignSystem.png" alt="website design system landing page screenshot"" />
           <p>First commit: <span class="textBold">June 1, 2022</span></p>
-          <p>
+          <p class="describeWebsiteProjectSystem">
             With this project, I had to suggest some design to use: colors, fonts and text styles. Very simple project,
             but I enjoy to make that kind of simple project from time to time.
           </p>
-          <ul>
+          <ul class="linksWebsiteProjectSystem">
             <li>
               <a href="https://github.com/Brewalan74/WebsiteDesignSystem" target="_blank"
                 >Website Project System Github link</a
@@ -141,7 +144,7 @@
               >
             </li>
           </ul>
-          <button>The links!</button>
+          <button class="buttonWebsiteProjectSystem">The links!</button>
         </article>
       </section>
 
@@ -243,7 +246,7 @@
           <h4>NFT Preview Card</h4>
           <img src="./assets/img/nft-preview-card.png" alt="nft preview card landing page screenshot" />
           <p>First commit: <span class="textBold"></span>February 8, 2022</p>
-          <p class="describeNFTPreviewCard">Project description</p>
+          <p class="describeNFTPreviewCard">First project of Frontend Mentor, mainly HTML and CSS.</p>
           <ul class="linksNFTPreviewCard">
             <li>
               <a href="https://github.com/Brewalan74/nft-preview-card" target="_blank">NFT Preview Card Github link</a>
@@ -258,7 +261,7 @@
 
       <h3>Code school final project</h3>
       <section>
-        <div class="codeSchoolFinalPrpject">
+        <div class="codeSchoolFinalProject">
           <h4>Instrumental For Me!</h4>
           <img src="./assets/img/InstrumentalForMe.png" alt="instrumental for me main page screenshot" />
           <p>First commit: <span class="textBold">November 26, 2021</span></p>
@@ -296,9 +299,9 @@
     </main>
 
     <footer>
-      <p class="p-small">
+      <p>
         Copyright ©
-        <a class="no-line" href="https://github.com/Brewalan74">Brewalan</a>
+        <a href="https://github.com/Brewalan74">Brewalan</a>
       </p>
     </footer>
   </body>
