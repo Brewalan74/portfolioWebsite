@@ -134,7 +134,7 @@ header {
 
 .mainProjects a {
     border-bottom: 1px solid azure;
-    padding-bottom: 2px;
+    line-height: 2rem;
 }
 
 .mainProjects a:hover {
@@ -168,7 +168,7 @@ article img {
 .linksWPMysite,
 .linksSunnyAgency,
 .linksNFTPreviewCard {
-    visibility: hidden;
+    display: none;
     position: absolute;
 }
 
