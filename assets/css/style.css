@@ -137,6 +137,11 @@ header {
     padding-bottom: 2px;
 }
 
+.mainProjects a:hover {
+    color: beige;
+    font-weight: bold;
+}
+
 .mainProjects p {
     margin-bottom: 1rem;
 }
@@ -212,6 +217,11 @@ button:hover {
     padding-bottom: 1px;
 }
 
+.codeSchoolFinalProject a:hover {
+    color: beige;
+    font-weight: bold;
+}
+
 .intersection {
     height: 1rem;
     background-color: #353b48;
@@ -231,6 +241,11 @@ button:hover {
 
 .mainContact p:nth-child(4) {
     padding-bottom: 3rem;
+}
+
+.mainContact a {
+    font-size: 1.5rem;
+    border-bottom: 1px solid azure;
 }
 
 /* footer */
