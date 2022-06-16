@@ -55,7 +55,6 @@ h4 {
 p {
     font-size: 1.2rem;
     line-height: 2rem;
-    margin-bottom: 1rem;
 }
 
 a {
@@ -105,6 +104,10 @@ header {
     margin-top: 2rem;
 }
 
+.mainAbout p {
+    margin-bottom: 1rem;
+}
+
 .mainAboutText,
 .mainAboutImg {
     width: 50%;
@@ -132,6 +135,10 @@ header {
 .mainProjects a {
     border-bottom: 1px solid azure;
     padding-bottom: 2px;
+}
+
+.mainProjects p {
+    margin-bottom: 1rem;
 }
 
 article {
@@ -195,9 +202,30 @@ button:hover {
     margin: 1rem 0 2rem;
 }
 
+.codeSchoolFinalProject p {
+    margin-bottom: 1rem;
+}
+
 .codeSchoolFinalProject a {
     border-bottom: 1px solid azure;
+    padding-top: 2rem;
     padding-bottom: 1px;
+}
+
+/* Contact page */
+/* ############ */
+.mainContact h2 {
+    margin-bottom: 2rem;
+}
+
+.mainContact p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.mainContact p:nth-child(4) {
+    padding-bottom: 3rem;
 }
 
 /* footer */
@@ -205,5 +233,6 @@ button:hover {
 footer {
     text-align: center;
     height: 10rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
+    border: 1px solid black;
 }
