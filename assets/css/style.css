@@ -255,3 +255,41 @@ footer {
     height: 10rem;
     padding-top: 3rem;
 }
+
+/* Screen 1200px max */
+/* ################# */
+@media screen and (max-width: 1200px) {
+    .mainAbout {
+        display: block;
+        text-align: center;
+    }
+
+    .mainAboutText {
+    width: 100%;
+    }
+
+    .mainAboutImg {
+        width: 50%;
+        margin: 2rem auto 2rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .mainProjects article {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headerUl li {
+        margin-right: 1rem;
+    }
+
+    .header li a {
+        font-size: 1rem;
+    }
+
+    .mainProjects article {
+        width: 95%;
+    }
+}
